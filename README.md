@@ -9,6 +9,10 @@ docker pull personalurban/alpine
 docker run -it --rm personalurban/alpine sh
 ```
 
+```sh
+docker run -d personalurban/alpine nginx -g "daemon off;"
+```
+
 * alpine
 * node 5.11.1
 * npm 3.8.6
