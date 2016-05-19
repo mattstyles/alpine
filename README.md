@@ -1,0 +1,19 @@
+
+# Minimal docker container used for testing
+
+```sh
+docker pull personalurban/alpine
+```
+
+```sh
+docker run -it --rm personalurban/alpine sh
+```
+
+* alpine
+* node 5.11.1
+* npm 3.8.6
+* nginx 1.8.1
+* vi
+* curl
+
+
